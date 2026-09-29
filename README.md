@@ -30,6 +30,7 @@ This project was conducted in the programming language "R". Visual Studio Code w
 
 ## Research Results
 1. What are the average counts of each bacterial strain and their statistical uncertainties?
+
 After determining how many of each unique ID was in every event (experiment), the overall mean average per event and statistical uncertainties were determined:
 
 $$
@@ -62,6 +63,7 @@ Below lists the findings of the calculations above:
 |-3334|Salmonella mutant|0.001152|5.08e-05|
 
 2. Is there any asymmetry between the normal and the mutant strain?
+
 To determine whether there is asymmetry between normal and mutant bacterial strains, calculated z-scores were compared. A z-score with an absolute value of below 3 suggests that there is not significant evidence that asymmetry is occurring, whereas a value of above 3 suggests there is a significant difference between the two variants.
 The z-scores were calculated by comparing the difference between the average number of the normal and mutant strains with their uncertainties:
 
