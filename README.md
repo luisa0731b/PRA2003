@@ -34,3 +34,4 @@ This project was conducted in the programming language "R". Visual Studio Code w
 | ID | Bacterial Strain | Mean Average per Event | Statistical Uncertainty |
 | -- | ---------------- | ---------------------- | ----------------------- |
 | 211 | E.coli WT | 19.949512 | 0.0327 |
+|-211|E.coli mutant|19.917216|0.0319|
