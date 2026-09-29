@@ -63,9 +63,14 @@ Below lists the findings of the calculations above:
 
 2. Is there any asymmetry between the normal and the mutant strain?
 To determine whether there is asymmetry between normal and mutant bacterial strains, calculated z-scores were compared. A z-score with an absolute value of below 3 suggests that there is not significant evidence that asymmetry is occurring, whereas a value of above 3 suggests there is a significant difference between the two variants.
-The z-scores were calculated by comparing the difference between the average number of the normal and mutant strains with their uncertainties.
+The z-scores were calculated by comparing the difference between the average number of the normal and mutant strains with their uncertainties:
 
 $$
 z = \frac{\bar{X}{\mathrm{normal}}-\bar{X}{\mathrm{mutant}}}
 {\sqrt{\sigma_{\mathrm{normal}}^2+\sigma_{\mathrm{mutant}}^2}}
 $$
+
+where the respective values were drawn from the data collected earlier (table shown above).
+
+The z-scores for IDs 211/-211 (E.coli WT & mutant), 321/-321 (Bacillus subtilis WT & mutant), 3312/-3312 (Mycobacterium tuberculosis & drug-resistant M. tuberculosis), and 3334/-3334 (Salmonella enterica & mutant) all have z-scores below 3, so there is no statistically significant evidence of an asymmetry between these strain pairs. In contrast, 2212/-2212 (Pseudomonas aeruginosa WT & antibiotic-resistant P. aeruginosa) has a z-score of 7.7781 and 3122/-3122 (Streptococcus pneumoniae * capsule-deficient S. pneumoniae) has a z-score of 3.36921. As these values are greater than 3, these pairs show evidence of asymmetry.
+The results indicate an asymmetry is present in pairs 2212/-2212 and 3122/-3122, while no significant asymmetry is observed for the other four pairs.
