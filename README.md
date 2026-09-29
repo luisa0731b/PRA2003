@@ -74,5 +74,15 @@ $$
 
 where the respective values were drawn from the data collected earlier (table shown above).
 
+|ID|Pair of bacteria|z-score|Asymmetric?|
+|--|----------------|-------|-----------|
+|211/-211|E.coli (WT vs mutant)|0.7068|No|
+|321/-321|Bacillus subtilis (WT vs mutant|0.78156|No|
+|2212/-2212|Pseudomonas aeruginosa WT & antibiotic-resistant P. aeruginosa|7.7781|Yes|
+|3122/-3122|Streptococcus pneumoniae * capsule-deficient S. pneumoniae|3.36921|Yes|
+|3312/-3312|Mycobacterium tuberculosis & drug-resistant M. tuberculosis|0.89398|No|
+|3334/-3334|Salmonella enterica & mutant|0.60861|No|
+
+
 The z-scores for IDs 211/-211 (E.coli WT & mutant), 321/-321 (Bacillus subtilis WT & mutant), 3312/-3312 (Mycobacterium tuberculosis & drug-resistant M. tuberculosis), and 3334/-3334 (Salmonella enterica & mutant) all have z-scores below 3, so there is no statistically significant evidence of an asymmetry between these strain pairs. In contrast, 2212/-2212 (Pseudomonas aeruginosa WT & antibiotic-resistant P. aeruginosa) has a z-score of 7.7781 and 3122/-3122 (Streptococcus pneumoniae * capsule-deficient S. pneumoniae) has a z-score of 3.36921. As these values are greater than 3, these pairs show evidence of asymmetry.
 The results indicate an asymmetry is present in pairs 2212/-2212 and 3122/-3122, while no significant asymmetry is observed for the other four pairs.
