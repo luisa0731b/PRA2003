@@ -1,6 +1,6 @@
 Luisa Burduselu (i6398864)
 # **PRA2003 Biology Project**
-### Background
+## Background
 This project monitors bacterial movement and populations through a bacterial tracking experiment. Using simulation models, how different bacterial species move and proliferate under specific nutrient or stress conditions will be investigated.
 The respective data for this research includes:
 - the 3D momentum (with px, py, and pz values)
@@ -25,4 +25,9 @@ This project aims to answer the following questions:
 2. Is there any asymmetry between the normal and the mutant strain?
 3. Is there any asymmetry as a function of their momentum?
 
+### Programs Used
+This project was conducted in the programming language "R". Visual Studio Code was used as the platform on the programs for conducting the statistical analyses were coded.
+
 ## Research Results
+1. What are the average counts of each bacterial strain and their statistical uncertainties?
+test test test
