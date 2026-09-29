@@ -66,13 +66,6 @@ To determine whether there is asymmetry between normal and mutant bacterial stra
 The z-scores were calculated by comparing the difference between the average number of the normal and mutant strains with their uncertainties.
 
 $$
-z = \frac{\bar{N}{\mathrm{normal}}-\bar{N}{\mathrm{mutant}}}
+z = \frac{\bar{X}{\mathrm{normal}}-\bar{X}{\mathrm{mutant}}}
 {\sqrt{\sigma_{\mathrm{normal}}^2+\sigma_{\mathrm{mutant}}^2}}
 $$
-
-where:
-
-$\bar{N}_{\mathrm{normal}}$ is the average number of bacteria per event for the normal strain.
-$\bar{N}_{\mathrm{mutant}}$ is the average number of bacteria per event for the mutant strain.
-$\sigma_{\mathrm{normal}}$ is the statistical uncertainty of the normal strain.
-$\sigma_{\mathrm{mutant}}$ is the statistical uncertainty of the mutant strain.
