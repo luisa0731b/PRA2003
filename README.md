@@ -30,6 +30,7 @@ This project was conducted in the programming language "R". Visual Studio Code w
 
 ## Research Results
 1. What are the average counts of each bacterial strain and their statistical uncertainties?
+
 | ID | Bacterial Strain | Mean Average per Event | Statistical Uncertainty |
 | -- | ---------------- | ---------------------- | ----------------------- |
 | 211 | E.coli WT | 19.949512 | 0.0327 |
