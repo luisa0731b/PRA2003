@@ -31,7 +31,6 @@ This project was conducted in the programming language "R". Visual Studio Code w
 ## Research Results
 1. What are the average counts of each bacterial strain and their statistical uncertainties?
 After determining how many of each unique ID was in every event (experiment), the overall mean average per event was determined"
-### Average per event
 
 $$
 \text{Average per event} =
@@ -39,14 +38,11 @@ $$
 {\text{Number of events containing at least one bacterium}}
 $$
 
-### Statistical uncertainty
-
 $$
 \text{Uncertainty} =
 \frac{\sqrt{\text{Total number of bacteria}}}
 {\text{Number of events containing at least one bacterium}}
 $$
-
 
 
 | ID | Bacterial Strain | Mean Average per Event | Statistical Uncertainty |
