@@ -35,3 +35,13 @@ This project was conducted in the programming language "R". Visual Studio Code w
 | -- | ---------------- | ---------------------- | ----------------------- |
 | 211 | E.coli WT | 19.949512 | 0.0327 |
 |-211|E.coli mutant|19.917216|0.0319|
+|321|Bacillus subtilus WT|2.509147|0.00477|
+|-321|Bacillus subtilis mutant|2.50346|0.0055|
+|2212|Pseudomonas aeruginosa WT|1.208034|0.0019|
+|-2212|Pseudomonas aeruginosa antibiotic-resistant|1.184161|0.00241|
+|3122|Streptococcus pneumoniae|0.276258|0.00107|
+|-3122|Capsule-deficient S.pneumoniae|0.271695|0.000985|
+|3312|Mycobacterium tuberculosis|0.039441|0.000284|
+|-3312|Drug-resistant M.tuberculosis|0.039|0.000402|
+|3334|Salmonella enterica|0.001188|4.17e-05|
+|-3334|Salmonella mutant|0.001152|5.08e-05|
