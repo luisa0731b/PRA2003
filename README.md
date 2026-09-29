@@ -69,3 +69,10 @@ $$
 z = \frac{\bar{N}{\mathrm{normal}}-\bar{N}{\mathrm{mutant}}}
 {\sqrt{\sigma_{\mathrm{normal}}^2+\sigma_{\mathrm{mutant}}^2}}
 $$
+
+where:
+
+$\bar{N}_{\mathrm{normal}}$ is the average number of bacteria per event for the normal strain.
+$\bar{N}_{\mathrm{mutant}}$ is the average number of bacteria per event for the mutant strain.
+$\sigma_{\mathrm{normal}}$ is the statistical uncertainty of the normal strain.
+$\sigma_{\mathrm{mutant}}$ is the statistical uncertainty of the mutant strain.
