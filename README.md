@@ -71,13 +71,11 @@ It's important to note that rarer strains (e.g. M. tuberculosis, Salmonella) hav
 
 2. Is there any asymmetry between the normal and the mutant strain?
 
-For each pair, the difference WT − mutant and the asymmetry
+For each pair, the difference [WT − mutant] and asymmetry are calculated separately in each of the 10 datasets, and then averaged. The uncertainty comes from the spread of these 10 values. By calculating the difference inside each dataset, we can look at the spread of those 10 differences and treat the two counts as independent. The following formula was used:
 
 $$A = \frac{N_{WT} - N_{mut}}{N_{WT} + N_{mut}}$$
 
-are calculated **separately in each of the 10 datasets**, then averaged. The uncertainty comes from the spread of these 10 values. Calculating the difference inside each dataset keeps the correlation between the WT and mutant counts (they come from the same events), so the uncertainty is not overestimated by treating the two counts as independent.
-
-Significance = A divided by its uncertainty (number of $\sigma$). A pair is called asymmetric if the significance is above the $3\sigma$ threshold.
+Significance = A was calculated by dividing by its uncertainty (number of $\sigma$). A pair is called asymmetric if the significance is above the $3\sigma$ threshold.
 
 | Pair | Difference (WT − mutant) | Asymmetry A (%) | Significance | Result |
 |:---|:---:|:---:|:---:|:---|
@@ -87,28 +85,3 @@ Significance = A divided by its uncertainty (number of $\sigma$). A pair is call
 | S. pneumoniae (3122/-3122) | 0.0049 ± 0.0006 | 0.9 ± 0.1 | 8.5σ | Asymmetric |
 | M. tuberculosis (3312/-3312) | 0.0004 ± 0.0005 | 0.6 ± 0.6 | 0.9σ | Symmetric |
 | Salmonella (3334/-3334) | 0.00004 ± 0.00007 | 1.6 ± 2.9 | 0.5σ | Symmetric |
-
-
-
-To determine whether there is asymmetry between normal and mutant bacterial strains, calculated z-scores were compared. A z-score with an absolute value of below 3 suggests that there is not significant evidence that asymmetry is occurring, whereas a value of above 3 suggests there is a significant difference between the two variants.
-The z-scores were calculated by comparing the difference between the average number of the normal and mutant strains with their uncertainties:
-
-$$
-z = \frac{\bar{X}{\mathrm{normal}}-\bar{X}{\mathrm{mutant}}}
-{\sqrt{\sigma_{\mathrm{normal}}^2+\sigma_{\mathrm{mutant}}^2}}
-$$
-
-where the respective values were drawn from the data collected earlier (table shown above).
-
-|ID|Pair of bacteria|z-score|Asymmetric?|
-|--|----------------|-------|-----------|
-|211/-211|E.coli (WT vs mutant)|0.7068|No|
-|321/-321|Bacillus subtilis (WT vs mutant|0.78156|No|
-|2212/-2212|Pseudomonas aeruginosa WT & antibiotic-resistant P. aeruginosa|7.7781|Yes|
-|3122/-3122|Streptococcus pneumoniae * capsule-deficient S. pneumoniae|3.36921|Yes|
-|3312/-3312|Mycobacterium tuberculosis & drug-resistant M. tuberculosis|0.89398|No|
-|3334/-3334|Salmonella enterica & mutant|0.60861|No|
-
-
-The z-scores for IDs 211/-211 (E.coli WT & mutant), 321/-321 (Bacillus subtilis WT & mutant), 3312/-3312 (Mycobacterium tuberculosis & drug-resistant M. tuberculosis), and 3334/-3334 (Salmonella enterica & mutant) all have z-scores below 3, so there is no statistically significant evidence of an asymmetry between these strain pairs. In contrast, 2212/-2212 (Pseudomonas aeruginosa WT & antibiotic-resistant P. aeruginosa) has a z-score of 7.7781 and 3122/-3122 (Streptococcus pneumoniae * capsule-deficient S. pneumoniae) has a z-score of 3.36921. As these values are greater than 3, these pairs show evidence of asymmetry.
-The results indicate an asymmetry is present in pairs 2212/-2212 and 3122/-3122, while no significant asymmetry is observed for the other four pairs.
