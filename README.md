@@ -33,6 +33,23 @@ Python was used for: binning in momentum and plotting dN/dP and asymmetry agains
 - pandas
 - matplotlib
 
+### Momentum bin creation
+## How the momentum bins were made
+
+- A bin is a momentum range (in units of 10^-20 kg m/s)
+- Bacteria are counted per bin, separately for WT and mutant
+- The momentum of every bacterium is p = sqrt(px² + py² + pz²); before choosing bins, the distribution of all momenta of a pair was checked (percentiles and maximum) to see where most bacteria lie
+- The same bins are used for all 10 subsamples within a pair, so the subsamples can be averaged bin by bin
+- The first bin starts at 0, so no bacteria are left out
+- Everything above the last edge goes into one extra "overflow" bin (grey area in the plots below)
+- More bacteria = narrower bins, fewer bacteria = wider bins
+- Rare strains (M. tuberculosis, Salmonella) need wider bins so that every bin still holds enough bacteria
+- Because the bins have different widths, the counts are converted from a frequency to a density, which makes bins comparable:
+
+  $$\frac{dN}{dP} = \frac{N}{\text{bin width} \times \text{number of events}}$$
+
+  The overflow bin has no defined width, so it is left out of the dN/dP plots but is used for the asymmetry!
+
 ## Research Results
 ### 1. What are the average counts of each bacterial strain and their statistical uncertainties?
 
@@ -129,5 +146,7 @@ When A > 0, it suggests that the wild type is more abundant than the mutant. Bel
 - 1.6 ± 2.9, with 0.5 sigma from zero
 - Bins are scattered around zero
 - Asymmetry: No
+
+A WT excess is seen for 211, 2212, and 3122, with a significant overall asymmetry. No asymmetry can be statistically declared for the rest of the bacterial pairs.
 
 ### 3. Is there any asymmetry as a function of their momentum?
