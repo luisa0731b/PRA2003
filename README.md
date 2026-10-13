@@ -88,11 +88,44 @@ Significance = A was calculated by dividing by its uncertainty (number of $\sigm
 
 When A > 0, it suggests that the wild type is more abundant than the mutant. Below are the graphs displaying the asymmetries of each bacterial pair:
 
-<img width="800" height="508.5" alt="211 asymmetry" src="https://github.com/user-attachments/assets/ce4c8004-6892-4eed-a55f-7e2d5819afd9" />
+<img width="1600" height="1017" alt="211 asymmetry" src="https://github.com/user-attachments/assets/ea89cb1f-352a-470d-a351-abf8931c222f" />
 
+211/-211 (E.coli)
+- A = 0.08 ± 0.01m, and 7.2 sigma from zero
+- Nearly all the bins are above zero, and A grows from about 0.0001 at low P to about 0.005 in the overflow bin (P > 32)
+- Asymmetry: Yes
 
 <img width="950" height="600" alt="321 asymmetry" src="https://github.com/user-attachments/assets/8523e83f-9485-4346-89b3-915dbde1e625" />
-<img width="1184" height="717" alt="2212 asymmetry" src="https://github.com/user-attachments/assets/ba1ec82c-23bc-4cd8-8748-9489c5834e0b" />
+
+321/-321 (B. subtilis)
+- A = 0.11 ± 0.07, and 1.7 sigma from zero
+- Only the overflow bin (P > 40) stands out
+- Asymmetry: No
+
+<img width="1184" height="717" alt="2212 asymmetry" src="https://github.com/user-attachments/assets/ba1ec82c-23bc-4cd8-8748-9489c5834e0b" />![Uploading 211 asymmetry.jpeg…]()
+
+2212/-2212 (P. aeruginosa)
+- A = 1.0 ± 0.1, and 10 sigma from zero
+- All bins are above zero
+- Asymmetry: Yes
+
 <img width="900" height="595" alt="3122 asymmetry" src="https://github.com/user-attachments/assets/5825d7cc-136b-4de0-b1c0-b6e33415ed35" />
+
+3122/-3122 (S. pneumoniae)
+- A = 0.9 ± 0.1, and 8.5 sigma from zero
+- All bins are also above zero
+- Asymmetry: Yes
+
 <img width="1152" height="727" alt="3312 asymmetry" src="https://github.com/user-attachments/assets/ba9fd168-e3ba-447d-ad4e-6b8524a62102" />
+
+3312/-3312 (M. tuberculosis)
+- A = 0.6 ± 0.6, and 0.9 sigma from zero
+- 10 of 11 bins are admittedly above zero, but every bin's error bar crosses over zero, so we cannot confidently say that any observable differences are not due to random chance
+- Asymmetry: No, despite the small hint at it
+
 <img width="1170" height="675" alt="3334 asymmetry" src="https://github.com/user-attachments/assets/7deccd51-54e3-4be0-8edd-684b0c5d884d" />
+
+3334/-3334 (Salmonella)
+- 1.6 ± 2.9, with 0.5 sigma from zero
+- Bins are scattered around zero
+- Asymmetry: No
