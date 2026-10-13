@@ -102,7 +102,7 @@ When A > 0, it suggests that the wild type is more abundant than the mutant. Bel
 - Only the overflow bin (P > 40) stands out
 - Asymmetry: No
 
-<img width="1184" height="717" alt="2212 asymmetry" src="https://github.com/user-attachments/assets/ba1ec82c-23bc-4cd8-8748-9489c5834e0b" />![Uploading 211 asymmetry.jpeg…]()
+<img width="1184" height="717" alt="2212 asymmetry" src="https://github.com/user-attachments/assets/ba1ec82c-23bc-4cd8-8748-9489c5834e0b" />
 
 2212/-2212 (P. aeruginosa)
 - A = 1.0 ± 0.1, and 10 sigma from zero
