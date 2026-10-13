@@ -36,7 +36,6 @@ Python was used for: binning in momentum and plotting dN/dP and asymmetry agains
 - matplotlib
 
 ### Momentum bin creation
-## How the momentum bins were made
 
 - A bin is a momentum range (in units of 10^-20 kg m/s)
 - Bacteria are counted per bin, separately for WT and mutant
