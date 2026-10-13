@@ -34,7 +34,7 @@ Python was used for: binning in momentum and plotting dN/dP and asymmetry agains
 - matplotlib
 
 ## Research Results
-1. What are the average counts of each bacterial strain and their statistical uncertainties?
+### 1. What are the average counts of each bacterial strain and their statistical uncertainties?
 
 After determining how many of each unique ID was in every event (experiment), the overall mean per event and statistical uncertainties were determined:
 
@@ -69,7 +69,7 @@ Below lists the findings of the calculations above:
 
 It's important to note that rarer strains (e.g. M. tuberculosis, Salmonella) have larger uncertainties relative to their size because of larger counting noise!
 
-2. Is there any asymmetry between the normal and the mutant strain?
+### 2. Is there any asymmetry between the normal and the mutant strain?
 
 For each pair, the difference [WT − mutant] and asymmetry are calculated separately in each of the 10 datasets, and then averaged. The uncertainty comes from the spread of these 10 values. By calculating the difference inside each dataset, we can look at the spread of those 10 differences and treat the two counts as independent. The following formula was used:
 
@@ -129,3 +129,5 @@ When A > 0, it suggests that the wild type is more abundant than the mutant. Bel
 - 1.6 ± 2.9, with 0.5 sigma from zero
 - Bins are scattered around zero
 - Asymmetry: No
+
+### 3. Is there any asymmetry as a function of their momentum?
