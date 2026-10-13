@@ -27,6 +27,10 @@ This project aims to answer the following questions:
 
 ### Programs Used
 This project was conducted in the programming language "R". Visual Studio Code was used as the platform on which the programs for conducting the statistical analyses were coded and ran.
+The packages necessary to run the [Python] code are:
+- numpy
+- pandas
+- matplotlib
 
 ## Research Results
 1. What are the average counts of each bacterial strain and their statistical uncertainties?
