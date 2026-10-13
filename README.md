@@ -88,7 +88,9 @@ Significance = A was calculated by dividing by its uncertainty (number of $\sigm
 
 When A > 0, it suggests that the wild type is more abundant than the mutant. Below are the graphs displaying the asymmetries of each bacterial pair:
 
-<img width="1600" height="1017" alt="211 asymmetry" src="https://github.com/user-attachments/assets/ce4c8004-6892-4eed-a55f-7e2d5819afd9" />
+<img width="800" height="508.5" alt="211 asymmetry" src="https://github.com/user-attachments/assets/ce4c8004-6892-4eed-a55f-7e2d5819afd9" />
+
+
 <img width="950" height="600" alt="321 asymmetry" src="https://github.com/user-attachments/assets/8523e83f-9485-4346-89b3-915dbde1e625" />
 <img width="1184" height="717" alt="2212 asymmetry" src="https://github.com/user-attachments/assets/ba1ec82c-23bc-4cd8-8748-9489c5834e0b" />
 <img width="900" height="595" alt="3122 asymmetry" src="https://github.com/user-attachments/assets/5825d7cc-136b-4de0-b1c0-b6e33415ed35" />
