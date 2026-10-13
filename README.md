@@ -229,8 +229,8 @@ Below is a summary of whether there is bacterial asymmetry detected:
 
 There were several limitations encountered during this project. Some of them include:
 
-- **Varied bin widths:** different bins contained different amounts of information, so treating them identically can affect how much influence each bin has on an overall result
-- **Set 10 complications:** Set 10 is a smaller set with a different momentum distribution (especially at high momentum) and this inflates the error bars in some bins, and as such, this set could be removed in future research
-- **Low statistics:** for rare strains (M. tuberculosis, Salmonella) the uncertainties are large, so "No asymmetry" here means "not detected"
-- **Open overflow bin:** they have no width, so they were missing from the dN/dP plots
-- **Rounding:** values may have been rounded when carried over from the previous calculation, so small differences (e.g. 7.2σ vs about 8σ for E. coli) could've appeared
+- Varied bin widths: different bins contained different amounts of information, so treating them identically can affect how much influence each bin has on an overall result
+- Set 10 complications: Set 10 is a smaller set with a different momentum distribution (especially at high momentum) and this inflates the error bars in some bins, and as such, this set could be removed in future research
+- Low statistics: for rare strains (M. tuberculosis, Salmonella) the uncertainties are large, so "No asymmetry" here means "not detected"
+- Open overflow bin: they have no width, so they were missing from the dN/dP plots
+- Rounding: values may have been rounded when carried over from the previous calculation, so small differences (e.g. 7.2σ vs about 8σ for E. coli) could've appeared
