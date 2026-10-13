@@ -114,45 +114,51 @@ Significance = A was calculated by dividing by its uncertainty (number of $\sigm
 
 When A > 0, it suggests that the wild type is more abundant than the mutant. Below are the graphs displaying the asymmetries of each bacterial pair:
 
-<img width="1600" height="1017" alt="211 asymmetry" src="https://github.com/user-attachments/assets/ea89cb1f-352a-470d-a351-abf8931c222f" />
+<img width="1600" height="944" alt="211 dndp" src="https://github.com/user-attachments/assets/1088b214-8e9c-4cc7-8f6b-6f5d38f3a2f8" />
 
 211/-211 (E.coli)
 - A = 0.08 ± 0.01m, and 7.2 sigma from zero
+- Peak dN/dP at ~8
 - Nearly all the bins are above zero, and A grows from about 0.0001 at low P to about 0.005 in the overflow bin (P > 32)
 - Asymmetry: Yes
 
-<img width="950" height="600" alt="321 asymmetry" src="https://github.com/user-attachments/assets/8523e83f-9485-4346-89b3-915dbde1e625" />
+<img width="950" height="600" alt="321 dndp" src="https://github.com/user-attachments/assets/f581cd61-a635-4670-ac09-5cc611d45fa0" />
 
 321/-321 (B. subtilis)
 - A = 0.11 ± 0.07, and 1.7 sigma from zero
+- Peak dN/dP at ~0.7
 - Only the overflow bin (P > 40) stands out
 - Asymmetry: No
 
-<img width="1184" height="717" alt="2212 asymmetry" src="https://github.com/user-attachments/assets/ba1ec82c-23bc-4cd8-8748-9489c5834e0b" />
+<img width="1063" height="639" alt="2212 dndp" src="https://github.com/user-attachments/assets/605341fc-850e-4a40-a79a-ac52da8d4a09" />
 
 2212/-2212 (P. aeruginosa)
 - A = 1.0 ± 0.1, and 10 sigma from zero
+- Peak dN/dP at ~ 0.22
 - All bins are above zero
 - Asymmetry: Yes
 
-<img width="900" height="595" alt="3122 asymmetry" src="https://github.com/user-attachments/assets/5825d7cc-136b-4de0-b1c0-b6e33415ed35" />
+<img width="892" height="602" alt="3122 dndp" src="https://github.com/user-attachments/assets/974bf487-fddb-4a30-a852-288ed6b7ab3c" />
 
 3122/-3122 (S. pneumoniae)
 - A = 0.9 ± 0.1, and 8.5 sigma from zero
+- Peak dN/dP at ~5x10^-2
 - All bins are also above zero
 - Asymmetry: Yes
 
-<img width="1152" height="727" alt="3312 asymmetry" src="https://github.com/user-attachments/assets/ba9fd168-e3ba-447d-ad4e-6b8524a62102" />
+<img width="1076" height="683" alt="3312 dndp" src="https://github.com/user-attachments/assets/a596a087-e852-40ae-bca0-7d954615dcef" />
 
 3312/-3312 (M. tuberculosis)
 - A = 0.6 ± 0.6, and 0.9 sigma from zero
-- 10 of 11 bins are admittedly above zero, but every bin's error bar crosses over zero, so we cannot confidently say that any observable differences are not due to random chance
+- Peak dN/dP at ~0.0055
+- WT & mutant overlap
 - Asymmetry: No, despite the small hint at it
 
-<img width="1170" height="675" alt="3334 asymmetry" src="https://github.com/user-attachments/assets/7deccd51-54e3-4be0-8edd-684b0c5d884d" />
+<img width="1120" height="679" alt="3334 dndp" src="https://github.com/user-attachments/assets/9271b5f7-834b-4f6c-851e-e594b338769e" />
 
 3334/-3334 (Salmonella)
 - 1.6 ± 2.9, with 0.5 sigma from zero
+- Peak dN/dP at ~ 0.00015
 - Bins are scattered around zero
 - Asymmetry: No
 
@@ -160,5 +166,65 @@ A WT excess is seen for 211, 2212, and 3122, with a significant overall asymmetr
 
 ### 3. Is there any asymmetry as a function of their momentum?
 In each bin, the asymmetry is calculated in each of the 10 subsamples, and then averaged.
+
 $A = \frac{N_{WT} - N_{mut}}{N_{WT} + N_{mut}}$
+
 The vertical error bar is the standard deviation of the 10 subsamples, while the horizontal bar is the bin range. The pink band is the overall asymmetry (all momenta combined) with its uncertainty, and the red dashed line is $A = 0$.
+
+<img width="1600" height="1017" alt="211 asymmetry" src="https://github.com/user-attachments/assets/edcc40e2-1631-429f-bbd6-86a2d65d674a" />
+
+211/-211 (E.coli)
+- Asymmetry of all bacteria & momenta combined: 0.0008 ± 0.0001
+- WT > mutant in nearly all bins
+- Asymmetry increases with momentum
+- Asymmetry as a function of momentum: Yes
+
+<img width="950" height="600" alt="321 asymmetry" src="https://github.com/user-attachments/assets/2d50e9e2-31f6-4566-bef7-ef7d93a0aee8" />
+
+321/-321 (B. subtilis)
+- Asymmetry of all bacteria & momenta combined: 00011 ± 0.0007
+- Most bins are consistent with zero within their error bars
+- Asymmetry as a function of momentum: No
+
+<img width="1184" height="717" alt="2212 asymmetry" src="https://github.com/user-attachments/assets/129253d9-d41b-4526-84e7-ecc80ee672d6" />
+
+2212/-2212 (P. aeruginosa)
+- Asymmetry of all bacteria & momenta combined: 0.0100 ± 0.0010
+- WT > mutant at every momentum
+- Asymmetry as a function of momentum: Yes
+
+<img width="900" height="595" alt="3122 asymmetry" src="https://github.com/user-attachments/assets/c4d38e54-fc35-469a-8465-7647df1b7c37" />
+
+3122/-3122 (S. pneumoniae)
+- Asymmetry of all bacteria & momenta combined: 0.00894 ± 0.00106
+- 10 of 11 bins are admittedly above zero, but every bin's error bar crosses over zero, so we cannot confidently say that any observable differences are not due to random chance
+- Pink band overlaps the red line, so not asymmetric
+- Asymmetry as a function of momentum: No
+
+<img width="1152" height="727" alt="3312 asymmetry" src="https://github.com/user-attachments/assets/71301692-60a2-47e4-84a3-e8b318985147" />
+
+3312/-3312 (M. tuberculosis)
+- Asymmetry of all bacteria & momenta combined: 0.0056 ± 0.0062
+- Bins have large error bars
+- Asymmetry as a function of momentum: No
+
+Below is a summary of whether there is bacterial asymmetry detected:
+
+| Pair | Overall A | Asymmetry vs momentum? |
+|:---|:---:|:---:|
+| 211 / -211 | 0.0008 ± 0.0001 | Yes |
+| 321 / -321 | 0.0011 ± 0.0007 | No |
+| 2212 / -2212 | 0.0100 ± 0.0010 | Yes |
+| 3122 / -3122 | 0.00894 ± 0.00106 | Yes |
+| 3312 / -3312 | 0.0056 ± 0.0062 | No |
+| 3334 / -3334 | 0.0152 ± 0.0293 | No |
+
+# Limitations
+
+There were several limitations encountered during this project. Some of them include:
+
+- **Varied bin widths:** different bins contained different amounts of information, so treating them identically can affect how much influence each bin has on an overall result
+- **Set 10 complications:** Set 10 is a smaller set with a different momentum distribution (especially at high momentum) and this inflates the error bars in some bins, and as such, this set could be removed in future research
+- **Low statistics:** for rare strains (M. tuberculosis, Salmonella) the uncertainties are large, so "No asymmetry" here means "not detected"
+- **Open overflow bin:** they have no width, so they were missing from the dN/dP plots
+- **Rounding:** values may have been rounded when carried over from the previous calculation, so small differences (e.g. 7.2σ vs about 8σ for E. coli) could've appeared
