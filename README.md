@@ -27,7 +27,8 @@ This project aims to answer the following questions:
 
 ### Programs Used
 This project was conducted in the programming language "R". Visual Studio Code was used as the platform on which the programs for conducting the statistical analyses were coded and ran.
-The packages necessary to run the [Python] code are:
+R was used for: counting bacteria per dataset, mean counts, uncertainties, asymmetry, and the momentum of each bacterium
+Python was used for: binning in momentum and plotting dN/dP and asymmetry against momentum. The packages necessary to run the [Python] code are:
 - numpy
 - pandas
 - matplotlib
@@ -35,20 +36,19 @@ The packages necessary to run the [Python] code are:
 ## Research Results
 1. What are the average counts of each bacterial strain and their statistical uncertainties?
 
-After determining how many of each unique ID was in every event (experiment), the overall mean average per event and statistical uncertainties were determined:
+After determining how many of each unique ID was in every event (experiment), the overall mean per event and statistical uncertainties were determined:
 
-$$
-\text{Average per event} =
-\frac{\text{Total number of bacteria}}
-{\text{Number of events containing at least one bacterium}}
-$$
+- Mean per event (total bacteria divided by total number of events):
 
-$$
-\text{Uncertainty} =
-\frac{\sqrt{\text{Total number of bacteria}}}
-{\text{Number of events containing at least one bacterium}}
-$$
+  $$\bar{x} = \frac{\sum N_i}{\sum E_i}$$
 
+- Standard deviation (SD) of the 10 per-dataset means, with $n = 10$:
+
+  $$SD = \sqrt{\frac{\sum_{i=1}^{n} (x_i - \bar{x})^2}{n - 1}}$$
+
+- Statistical uncertainty of the mean:
+
+  $$\sigma_{\bar{x}} = \frac{SD}{\sqrt{n}}$$
 Below lists the findings of the calculations above:
 
 | ID | Bacterial Strain | Mean Average per Event | Statistical Uncertainty |
