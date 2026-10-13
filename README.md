@@ -196,15 +196,22 @@ The vertical error bar is the standard deviation of the 10 subsamples, while the
 
 3122/-3122 (S. pneumoniae)
 - Asymmetry of all bacteria & momenta combined: 0.00894 ± 0.00106
-- 10 of 11 bins are admittedly above zero, but every bin's error bar crosses over zero, so we cannot confidently say that any observable differences are not due to random chance
-- Pink band overlaps the red line, so not asymmetric
-- Asymmetry as a function of momentum: No
+- All bins above zero
+- Asymmetry as a function of momentum: Yes
 
 <img width="1152" height="727" alt="3312 asymmetry" src="https://github.com/user-attachments/assets/71301692-60a2-47e4-84a3-e8b318985147" />
 
 3312/-3312 (M. tuberculosis)
 - Asymmetry of all bacteria & momenta combined: 0.0056 ± 0.0062
-- Bins have large error bars
+- 10 of 11 bins are admittedly above zero, but every bin's error bar crosses over zero, so we cannot confidently say that any observable differences are not due to random chance
+- Pink band overlaps the red line, so not asymmetric
+- Asymmetry as a function of momentum: No
+
+<img width="1170" height="675" alt="3334 asymmetry" src="https://github.com/user-attachments/assets/ab35cdcb-92b5-4fcb-be25-183e993eaac2" />
+
+3334/-3334 (Salmonella)
+- Asymmetry of all bacteria & momenta combined: 0.0152 ± 0.0293
+- Bins have very large error bars
 - Asymmetry as a function of momentum: No
 
 Below is a summary of whether there is bacterial asymmetry detected:
