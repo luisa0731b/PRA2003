@@ -75,7 +75,7 @@ For each pair, the difference [WT − mutant] and asymmetry are calculated separ
 
 $$A = \frac{N_{WT} - N_{mut}}{N_{WT} + N_{mut}}$$
 
-Significance = A was calculated by dividing by its uncertainty (number of $\sigma$). A pair is called asymmetric if the significance is above the $3\sigma$ threshold.
+Significance = A was calculated by dividing by its uncertainty (number of $\sigma$). A pair is considered asymmetric if that significance is above the $3\sigma$ threshold.
 
 | Pair | Difference (WT − mutant) | Asymmetry A (%) | Significance | Result |
 |:---|:---:|:---:|:---:|:---|
