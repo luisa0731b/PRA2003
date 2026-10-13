@@ -19,6 +19,8 @@ The aforementioned bacteria, their variants, and respective ID's include:
 - 3334: Salmonella enteric
 - -3334: Salmonella mutant
 
+
+
 ### Research Questions
 This project aims to answer the following questions:
 1. What are the average counts of each bacterial strain and their statistical uncertainties?
@@ -49,6 +51,13 @@ Python was used for: binning in momentum and plotting dN/dP and asymmetry agains
   $$\frac{dN}{dP} = \frac{N}{\text{bin width} \times \text{number of events}}$$
 
   The overflow bin has no defined width, so it is left out of the dN/dP plots but is used for the asymmetry!
+
+| Pair | Bin edges |
+|:---|:---|
+| 211 / -211 | 0, 0.25, 0.5, 0.75, 1, 1.5, 2, 3, 4, 6, 8, 12, 16, 24, 32 |
+| 321 / -321 | 0, 0.5, 1, 1.5, 2, 2.5, 3, 4, 6, 8, 12, 16, 24, 40 |
+| 2212 / -2212 & 3122 / -3122 & 3312 / -3312 | 0, 1, 1.5, 2, 2.5, 3, 4, 6, 8, 12, 16 |
+| 3334 / -3334 | 0, 1, 2, 3, 4.5, 7, 10, 15, 21 |
 
 ## Research Results
 ### 1. What are the average counts of each bacterial strain and their statistical uncertainties?
@@ -150,3 +159,6 @@ When A > 0, it suggests that the wild type is more abundant than the mutant. Bel
 A WT excess is seen for 211, 2212, and 3122, with a significant overall asymmetry. No asymmetry can be statistically declared for the rest of the bacterial pairs.
 
 ### 3. Is there any asymmetry as a function of their momentum?
+In each bin, the asymmetry is calculated in each of the 10 subsamples, and then averaged.
+$A = \frac{N_{WT} - N_{mut}}{N_{WT} + N_{mut}}$
+The vertical error bar is the standard deviation of the 10 subsamples, while the horizontal bar is the bin range. The pink band is the overall asymmetry (all momenta combined) with its uncertainty, and the red dashed line is $A = 0$.
