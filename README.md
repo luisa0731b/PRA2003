@@ -85,3 +85,12 @@ Significance = A was calculated by dividing by its uncertainty (number of $\sigm
 | S. pneumoniae (3122/-3122) | 0.0049 ± 0.0006 | 0.9 ± 0.1 | 8.5σ | Asymmetric |
 | M. tuberculosis (3312/-3312) | 0.0004 ± 0.0005 | 0.6 ± 0.6 | 0.9σ | Symmetric |
 | Salmonella (3334/-3334) | 0.00004 ± 0.00007 | 1.6 ± 2.9 | 0.5σ | Symmetric |
+
+When A > 0, it suggests that the wild type is more abundant than the mutant. Below are the graphs displaying the asymmetries of each bacterial pair:
+
+<img width="1600" height="1017" alt="211 asymmetry" src="https://github.com/user-attachments/assets/ce4c8004-6892-4eed-a55f-7e2d5819afd9" />
+<img width="950" height="600" alt="321 asymmetry" src="https://github.com/user-attachments/assets/8523e83f-9485-4346-89b3-915dbde1e625" />
+<img width="1184" height="717" alt="2212 asymmetry" src="https://github.com/user-attachments/assets/ba1ec82c-23bc-4cd8-8748-9489c5834e0b" />
+<img width="900" height="595" alt="3122 asymmetry" src="https://github.com/user-attachments/assets/5825d7cc-136b-4de0-b1c0-b6e33415ed35" />
+<img width="1152" height="727" alt="3312 asymmetry" src="https://github.com/user-attachments/assets/ba9fd168-e3ba-447d-ad4e-6b8524a62102" />
+<img width="1170" height="675" alt="3334 asymmetry" src="https://github.com/user-attachments/assets/7deccd51-54e3-4be0-8edd-684b0c5d884d" />
